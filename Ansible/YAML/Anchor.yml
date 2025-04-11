@@ -1,0 +1,16 @@
+---
+Team1: &WIN
+  Name: Wintel
+  VMs: Windows
+  ESXi: Yes
+
+Team2: &Lin
+  Name: Unix
+  VMs: Linux
+  ESXi: No
+
+Employee:
+  - Name: Krishna 
+    <<: *WIN
+  - Name: Bhavana
+    <<: *Lin

@@ -1,0 +1,25 @@
+School:
+  - name: "Gurukul"
+    principal: "Rama Devi"
+    Students:
+      - Name: "Krishna"
+        Roll-No: 5
+        Class: "Xth"
+      - Name: "Ravi"
+        Roll-No: 3
+        Class: "Xth"
+
+  - name: "KAHL"
+    principal: "Simen"
+    Students:
+      - Name: "Ramana"
+        Roll-No: 2
+        Class: "Xth"
+      - Name: "Gayatri"
+        Roll-No: 10
+        Class: "VIIth"
+
+
+School:
+  - name: High School
+    Student: [{name: Krishna, age: 19, roll: 20}, {name: Ramana, age: 21, roll: 12}]

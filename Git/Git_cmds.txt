@@ -1,0 +1,24 @@
+
+
+1. Git init
+2. Git status
+3. Git add <file_name>
+4. Git stash - list\pop\clear\drop
+5. Git commit -m "msg"
+6. Git reset <commit-no>
+7. Git reset --hard <commit-no>
+8. Git log
+9. Git remote add origin <url>
+10. Git remote add upstream <URL>
+11. Git push origin <branch name>
+12. Git branch 
+13. Git branch <branch name>
+14. Git checkout -b <branch name>
+15. Git checkout <branch name>
+16. Git fetch origin
+17. Git merge origin/<branch name>
+18. Git pull origin
+19. Git clone <URL>
+20. Git rebase -i <commit> 
+21. Git pull upstream <branch name>
+

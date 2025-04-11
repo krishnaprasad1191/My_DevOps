@@ -1,0 +1,41 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250401183630
+Username: WW930\a882829
+RunAs User: WW930\a882829
+Configuration Name: 
+Machine: DESKTOP-7VKG6GB (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 13384
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\DevOps\PScmds.txt
+PS C:\> ls
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da----        01-04-2025     18:36                DevOps
+d-----        29-10-2024     19:01                DRIVERS
+d-----        29-03-2025     21:52                Intel
+d-----        31-01-2025     00:37                Krishna
+d-----        25-06-2024     13:51                OD
+d-----        07-05-2022     10:54                PerfLogs
+d-r---        25-03-2025     20:39                Program Files
+d-r---        18-03-2025     17:08                Program Files (x86)
+d-----        27-01-2025     10:23                Temp
+d-r---        19-11-2024     22:07                Users
+d-----        18-03-2025     17:05                Windows
+-a----        12-03-2025     21:48          12288 DumpStack.log
+
+

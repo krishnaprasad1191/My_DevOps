@@ -1,0 +1,101 @@
+#3 types 
+
+# 1. Scalar - Numeric, String, boolean, Null
+    #Numeric - Integer, Float, Hexadecimal, octal.
+    #String - No quotes, Single and Double Quotes.
+    # Boolean - T/F or YES/NO or ON/OFF.
+    #Null - null/~/NULL
+
+Name: "Krishna"
+Middlename: 'Prasad'
+Surname: Ummadi
+age: 50
+Weight: 80.50
+Married: NO
+girlfriends: null
+lover: ~
+~: This is a NULL key
+
+# Specify data type...........
+
+Myname: !!String "Ummadi Krishna Prasad"
+
+age: !!int 23
+octal: !!int 05678
+percentage: !!Float 90.90
+infinite: !!Float .inf
+not an num: !!Float .nan
+
+Names: !!Set
+ ? 'Krishna'
+ ? 'prasad'
+
+Dict: !!Dict
+
+
+# 2. LISTs
+
+# Block Style:
+items: ['laptop', 'charger', 'mouse', 'book']
+
+#Flow style:
+Items:
+  - 'laptop'
+  - 'charger'
+  - 'book'
+  - 'mouse'
+
+#Nested List:
+
+Vehicles:
+  Car:
+    - Name: 'Mahindra XUV 700'
+      Engine: 'Petrol'
+      Type: '4 Wheel type'
+  Bike:
+    - Name: 'Apache 200 4v'
+      Engine: 'Petrol'
+      Type: 'Motorcycle'
+
+# Same as 
+
+Vehicles:
+  Car: [{ Name: "Mahindra XUV 700", Engine: "Petrol", Type: "4 Wheel Type" }]
+  Bike: [{ Name: "Apache 200 4V", Engine: "Petrol", Type: "Motorcycle" }]
+
+# Nested Maps:
+
+Vehicles:
+  Car:
+    Name: 'Mahindra XUV 700'
+    Engine: 'Petrol'
+    Type: '4 Wheel Drive'
+  Bike:
+    Name: 'Apache 200 4v'
+    Engine: 'Petrol'
+    Type: 'Motorcycle'
+
+# Same as 
+
+Car: {Name: 'Mahindra XUV 700', Engine: 'Petrol', Type: '4 Wheel Drive'}
+
+#Sample Example
+---
+Students:
+  Std1:
+    Name: "Krishna"
+    Hobbies:
+      - Music
+      - Reading
+      - cricket
+    Roles:
+      - Wintel Engineer
+      - Azure Admin
+      - DevOps Engineer
+  Std2:
+    Name: 'Rahul'
+    Hobbies:
+      - Music
+      - Sleeping
+    Roles:
+      - Support Role
