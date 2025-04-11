@@ -22,3 +22,11 @@
 20. Git rebase -i <commit> 
 21. Git pull upstream <branch name>
 
+
+if we are getting this error "fatal: refusing to merge unrelated histories"
+
+use below cmd:
+
+$ git merge origin/main --allow-unrelated-histories
+
+This tells Git: "I know these histories are unrelated, but merge them anyway."
